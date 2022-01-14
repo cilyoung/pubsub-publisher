@@ -1,6 +1,6 @@
-# A client java application to publish some messages to a PubSub topic
+# A Client - Java Application To Publish Messages To A PubSub Topic
 
-## Pipeline
+## PubSubPublisher
 
 [PubSubPublisher](src/main/java/PubSubPublisher.java) -
 A class that read messages from [names.txt](src/main/resources/names.txt) then publish to a PubSub topic mentioned in the class
