@@ -16,8 +16,8 @@ import java.util.concurrent.TimeUnit;
 
 public class PubSubPublisher {
     public static void main(String... args) throws Exception {
-        String projectId = "cilyoung";
-        String topicId = "uc1-dlq-topic";
+        String projectId = "nttdata-c4e-bde";
+        String topicId = "uc1-input-topic-9";
         String fileName = "/names.txt";
 
         publisherMessages(projectId, topicId, readFile(fileName));
